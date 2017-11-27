@@ -1,1569 +1,70 @@
 <!DOCTYPE html>
-<html amp>
+<html >
 <head>
+  <!-- Site made with Mobirise Website Builder v4.3.0, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.3.0, mobirise.com">
-  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <meta name="description" content="">
-  <title>Mobitest amp</title>
-  <link rel="canonical" href="index.html">
-
-  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
-
-  <style amp-custom>
-    body {
-      font-family: Poppins;
-      font-style: normal;
-      line-height: 1.5;
-    }
-    amp-img img {
-        max-width: 100%;
-    }
-    .mbr-section-title {
-      font-style: normal;
-      line-height: 1.2;
-    }
-    .mbr-section-subtitle {
-      line-height: 1.3;
-    }
-    .mbr-text {
-      font-style: normal;
-      line-height: 1.6;
-    }
-    .display-1 {
-      font-family: 'Comfortaa', sans-serif;
-      font-size: 4.5rem;
-    }
-    .display-2 {
-      font-family: 'Poppins', sans-serif;
-      font-size: 3rem;
-    }
-    .display-4 {
-      font-family: 'Poppins', sans-serif;
-      font-size: 1rem;
-    }
-    .display-5 {
-      font-family: 'Comfortaa', sans-serif;
-      font-size: 1.5rem;
-    }
-    .display-7 {
-      font-family: 'Comfortaa', sans-serif;
-      font-size: 1.1rem;
-    }
-    @media (max-width: 768px) {
-      .display-1 {
-        font-size: 3.6rem;
-        font-size: calc( 2.225rem + (4.5 - 2.225) * ((100vw - 20rem) / (48 - 20)));
-        line-height: calc( 1.4 * (2.225rem + (4.5 - 2.225) * ((100vw - 20rem) / (48 - 20))));
-      }
-      .display-2 {
-        font-size: 2.4rem;
-        font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
-        line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
-      }
-      .display-4 {
-        font-size: 0.8rem;
-        font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
-        line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
-      }
-      .display-5 {
-        font-size: 1.2rem;
-        font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-        line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
-      }
-    }
-    /* Buttons */
-    .btn {
-      font-weight: 500;
-      border-width: 2px;
-      font-style: normal;
-      letter-spacing: 1px;
-      margin: .4rem .8rem;
-      white-space: normal;
-      transition-property: background-color, color, border-color, box-shadow;
-      transition-duration: .3s,.3s,.3s,2s;
-      transition-timing-function: ease-in-out;
-      padding: 1rem 2rem;
-      border-radius: 3px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      word-break: break-word;
-    }
-    .btn .mbr-iconfont {
-      font-size: 1.6rem;
-    }
-    .btn-sm {
-      border: 1px solid;
-      font-weight: 500;
-      letter-spacing: 1px;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out;
-      padding: 0.8rem 1.5rem;
-      border-radius: 3px;
-    }
-    .btn-md {
-      font-weight: 500;
-      letter-spacing: 1px;
-      margin: .4rem .8rem;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out;
-      padding: 1rem 2rem;
-      border-radius: 3px;
-    }
-    .btn-lg {
-      font-weight: 500;
-      letter-spacing: 1px;
-      margin: .4rem .8rem;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out;
-      padding: 1.2rem 3.2rem;
-      border-radius: 3px;
-    }
-    .bg-primary {
-      background-color: #a38dfd;
-    }
-    .bg-success {
-      background-color: #b2ccd2;
-    }
-    .bg-info {
-      background-color: #1ba1e2;
-    }
-    .bg-warning {
-      background-color: #82786e;
-    }
-    .bg-danger {
-      background-color: #879a9f;
-    }
-    .btn-primary {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-primary:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #6642fc;
-      border-color: #6642fc;
-      border-radius: 100px;
-    }
-    .btn-primary,
-    .btn-primary:active,
-    .btn-primary.active {
-      background-color: #a38dfd;
-      border-color: #a38dfd;
-      color: #ffffff;
-    }
-    .btn-primary:hover,
-    .btn-primary:focus,
-    .btn-primary.focus {
-      color: #ffffff;
-      background-color: #6642fc;
-      border-color: #6642fc;
-    }
-    .btn-primary:hover:before,
-    .btn-primary:focus:before,
-    .btn-primary.focus:before {
-      transform: scale(10);
-    }
-    .btn-primary.disabled,
-    .btn-primary:disabled {
-      color: #ffffff;
-      background-color: #6642fc;
-      border-color: #6642fc;
-    }
-    .btn-secondary {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-secondary:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #fe0613;
-      border-color: #fe0613;
-      border-radius: 100px;
-    }
-    .btn-secondary,
-    .btn-secondary:active,
-    .btn-secondary.active {
-      background-color: #fe525b;
-      border-color: #fe525b;
-      color: #ffffff;
-    }
-    .btn-secondary:hover,
-    .btn-secondary:focus,
-    .btn-secondary.focus {
-      color: #ffffff;
-      background-color: #fe0613;
-      border-color: #fe0613;
-    }
-    .btn-secondary:hover:before,
-    .btn-secondary:focus:before,
-    .btn-secondary.focus:before {
-      transform: scale(10);
-    }
-    .btn-secondary.disabled,
-    .btn-secondary:disabled {
-      color: #ffffff;
-      background-color: #fe0613;
-      border-color: #fe0613;
-    }
-    .btn-info {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-info:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #13709e;
-      border-color: #13709e;
-      border-radius: 100px;
-    }
-    .btn-info,
-    .btn-info:active,
-    .btn-info.active {
-      background-color: #1ba1e2;
-      border-color: #1ba1e2;
-      color: #ffffff;
-    }
-    .btn-info:hover,
-    .btn-info:focus,
-    .btn-info.focus {
-      color: #ffffff;
-      background-color: #13709e;
-      border-color: #13709e;
-    }
-    .btn-info:hover:before,
-    .btn-info:focus:before,
-    .btn-info.focus:before {
-      transform: scale(10);
-    }
-    .btn-info.disabled,
-    .btn-info:disabled {
-      color: #ffffff;
-      background-color: #13709e;
-      border-color: #13709e;
-    }
-    .btn-success {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-success:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #82acb6;
-      border-color: #82acb6;
-      border-radius: 100px;
-    }
-    .btn-success,
-    .btn-success:active,
-    .btn-success.active {
-      background-color: #b2ccd2;
-      border-color: #b2ccd2;
-      color: #ffffff;
-    }
-    .btn-success:hover,
-    .btn-success:focus,
-    .btn-success.focus {
-      color: #ffffff;
-      background-color: #82acb6;
-      border-color: #82acb6;
-    }
-    .btn-success:hover:before,
-    .btn-success:focus:before,
-    .btn-success.focus:before {
-      transform: scale(10);
-    }
-    .btn-success.disabled,
-    .btn-success:disabled {
-      color: #ffffff;
-      background-color: #82acb6;
-      border-color: #82acb6;
-    }
-    .btn-warning {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-warning:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #59524b;
-      border-color: #59524b;
-      border-radius: 100px;
-    }
-    .btn-warning,
-    .btn-warning:active,
-    .btn-warning.active {
-      background-color: #82786e;
-      border-color: #82786e;
-      color: #ffffff;
-    }
-    .btn-warning:hover,
-    .btn-warning:focus,
-    .btn-warning.focus {
-      color: #ffffff;
-      background-color: #59524b;
-      border-color: #59524b;
-    }
-    .btn-warning:hover:before,
-    .btn-warning:focus:before,
-    .btn-warning.focus:before {
-      transform: scale(10);
-    }
-    .btn-warning.disabled,
-    .btn-warning:disabled {
-      color: #ffffff;
-      background-color: #59524b;
-      border-color: #59524b;
-    }
-    .btn-danger {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-danger:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #617479;
-      border-color: #617479;
-      border-radius: 100px;
-    }
-    .btn-danger,
-    .btn-danger:active,
-    .btn-danger.active {
-      background-color: #879a9f;
-      border-color: #879a9f;
-      color: #ffffff;
-    }
-    .btn-danger:hover,
-    .btn-danger:focus,
-    .btn-danger.focus {
-      color: #ffffff;
-      background-color: #617479;
-      border-color: #617479;
-    }
-    .btn-danger:hover:before,
-    .btn-danger:focus:before,
-    .btn-danger.focus:before {
-      transform: scale(10);
-    }
-    .btn-danger.disabled,
-    .btn-danger:disabled {
-      color: #ffffff;
-      background-color: #617479;
-      border-color: #617479;
-    }
-    .btn-black {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-black:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #0d0d0d;
-      border-color: #0d0d0d;
-      border-radius: 100px;
-    }
-    .btn-black,
-    .btn-black:active,
-    .btn-black.active {
-      background-color: #333333;
-      border-color: #333333;
-      color: #ffffff;
-    }
-    .btn-black:hover,
-    .btn-black:focus,
-    .btn-black.focus {
-      color: #ffffff;
-      background-color: #0d0d0d;
-      border-color: #0d0d0d;
-    }
-    .btn-black:hover:before,
-    .btn-black:focus:before,
-    .btn-black.focus:before {
-      transform: scale(10);
-    }
-    .btn-black.disabled,
-    .btn-black:disabled {
-      color: #ffffff;
-      background-color: #0d0d0d;
-      border-color: #0d0d0d;
-    }
-    .btn-white {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-white:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #d4d4d4;
-      border-color: #d4d4d4;
-      border-radius: 100px;
-    }
-    .btn-white,
-    .btn-white:active,
-    .btn-white.active {
-      background-color: #ffffff;
-      border-color: #ffffff;
-      color: #ffffff;
-    }
-    .btn-white:hover,
-    .btn-white:focus,
-    .btn-white.focus {
-      color: #ffffff;
-      background-color: #d4d4d4;
-      border-color: #d4d4d4;
-    }
-    .btn-white:hover:before,
-    .btn-white:focus:before,
-    .btn-white.focus:before {
-      transform: scale(10);
-    }
-    .btn-white.disabled,
-    .btn-white:disabled {
-      color: #ffffff;
-      background-color: #d4d4d4;
-      border-color: #d4d4d4;
-    }
-    .btn-white,
-    .btn-white:active,
-    .btn-white.active {
-      color: #333333;
-    }
-    .btn-white:hover,
-    .btn-white:focus,
-    .btn-white.focus {
-      color: #333333;
-    }
-    .btn-white.disabled,
-    .btn-white:disabled {
-      color: #333333;
-    }
-    .btn-primary-outline {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-primary-outline:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #a38dfd;
-      border-color: #a38dfd;
-      border-radius: 100px;
-    }
-    .btn-primary-outline,
-    .btn-primary-outline:active,
-    .btn-primary-outline.active {
-      background: none;
-      border-color: #5229fb;
-      color: #5229fb;
-    }
-    .btn-primary-outline:hover,
-    .btn-primary-outline:focus,
-    .btn-primary-outline.focus {
-      color: #ffffff;
-      background-color: #a38dfd;
-      border-color: #a38dfd;
-    }
-    .btn-primary-outline:hover:before,
-    .btn-primary-outline:focus:before,
-    .btn-primary-outline.focus:before {
-      transform: scale(10);
-    }
-    .btn-primary-outline.disabled,
-    .btn-primary-outline:disabled {
-      color: #ffffff;
-      background-color: #a38dfd;
-      border-color: #a38dfd;
-    }
-    .btn-secondary-outline {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-secondary-outline:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #fe525b;
-      border-color: #fe525b;
-      border-radius: 100px;
-    }
-    .btn-secondary-outline,
-    .btn-secondary-outline:active,
-    .btn-secondary-outline.active {
-      background: none;
-      border-color: #e9010d;
-      color: #e9010d;
-    }
-    .btn-secondary-outline:hover,
-    .btn-secondary-outline:focus,
-    .btn-secondary-outline.focus {
-      color: #ffffff;
-      background-color: #fe525b;
-      border-color: #fe525b;
-    }
-    .btn-secondary-outline:hover:before,
-    .btn-secondary-outline:focus:before,
-    .btn-secondary-outline.focus:before {
-      transform: scale(10);
-    }
-    .btn-secondary-outline.disabled,
-    .btn-secondary-outline:disabled {
-      color: #ffffff;
-      background-color: #fe525b;
-      border-color: #fe525b;
-    }
-    .btn-info-outline {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-info-outline:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #1ba1e2;
-      border-color: #1ba1e2;
-      border-radius: 100px;
-    }
-    .btn-info-outline,
-    .btn-info-outline:active,
-    .btn-info-outline.active {
-      background: none;
-      border-color: #106087;
-      color: #106087;
-    }
-    .btn-info-outline:hover,
-    .btn-info-outline:focus,
-    .btn-info-outline.focus {
-      color: #ffffff;
-      background-color: #1ba1e2;
-      border-color: #1ba1e2;
-    }
-    .btn-info-outline:hover:before,
-    .btn-info-outline:focus:before,
-    .btn-info-outline.focus:before {
-      transform: scale(10);
-    }
-    .btn-info-outline.disabled,
-    .btn-info-outline:disabled {
-      color: #ffffff;
-      background-color: #1ba1e2;
-      border-color: #1ba1e2;
-    }
-    .btn-success-outline {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-success-outline:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #b2ccd2;
-      border-color: #b2ccd2;
-      border-radius: 100px;
-    }
-    .btn-success-outline,
-    .btn-success-outline:active,
-    .btn-success-outline.active {
-      background: none;
-      border-color: #72a1ac;
-      color: #72a1ac;
-    }
-    .btn-success-outline:hover,
-    .btn-success-outline:focus,
-    .btn-success-outline.focus {
-      color: #ffffff;
-      background-color: #b2ccd2;
-      border-color: #b2ccd2;
-    }
-    .btn-success-outline:hover:before,
-    .btn-success-outline:focus:before,
-    .btn-success-outline.focus:before {
-      transform: scale(10);
-    }
-    .btn-success-outline.disabled,
-    .btn-success-outline:disabled {
-      color: #ffffff;
-      background-color: #b2ccd2;
-      border-color: #b2ccd2;
-    }
-    .btn-warning-outline {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-warning-outline:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #82786e;
-      border-color: #82786e;
-      border-radius: 100px;
-    }
-    .btn-warning-outline,
-    .btn-warning-outline:active,
-    .btn-warning-outline.active {
-      background: none;
-      border-color: #4b453f;
-      color: #4b453f;
-    }
-    .btn-warning-outline:hover,
-    .btn-warning-outline:focus,
-    .btn-warning-outline.focus {
-      color: #ffffff;
-      background-color: #82786e;
-      border-color: #82786e;
-    }
-    .btn-warning-outline:hover:before,
-    .btn-warning-outline:focus:before,
-    .btn-warning-outline.focus:before {
-      transform: scale(10);
-    }
-    .btn-warning-outline.disabled,
-    .btn-warning-outline:disabled {
-      color: #ffffff;
-      background-color: #82786e;
-      border-color: #82786e;
-    }
-    .btn-danger-outline {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-danger-outline:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #879a9f;
-      border-color: #879a9f;
-      border-radius: 100px;
-    }
-    .btn-danger-outline,
-    .btn-danger-outline:active,
-    .btn-danger-outline.active {
-      background: none;
-      border-color: #55666b;
-      color: #55666b;
-    }
-    .btn-danger-outline:hover,
-    .btn-danger-outline:focus,
-    .btn-danger-outline.focus {
-      color: #ffffff;
-      background-color: #879a9f;
-      border-color: #879a9f;
-    }
-    .btn-danger-outline:hover:before,
-    .btn-danger-outline:focus:before,
-    .btn-danger-outline.focus:before {
-      transform: scale(10);
-    }
-    .btn-danger-outline.disabled,
-    .btn-danger-outline:disabled {
-      color: #ffffff;
-      background-color: #879a9f;
-      border-color: #879a9f;
-    }
-    .btn-black-outline {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-black-outline:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #333333;
-      border-color: #333333;
-      border-radius: 100px;
-    }
-    .btn-black-outline,
-    .btn-black-outline:active,
-    .btn-black-outline.active {
-      background: none;
-      border-color: #000000;
-      color: #000000;
-    }
-    .btn-black-outline:hover,
-    .btn-black-outline:focus,
-    .btn-black-outline.focus {
-      color: #ffffff;
-      background-color: #333333;
-      border-color: #333333;
-    }
-    .btn-black-outline:hover:before,
-    .btn-black-outline:focus:before,
-    .btn-black-outline.focus:before {
-      transform: scale(10);
-    }
-    .btn-black-outline.disabled,
-    .btn-black-outline:disabled {
-      color: #ffffff;
-      background-color: #333333;
-      border-color: #333333;
-    }
-    .btn-white-outline {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-white-outline:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      height: 2rem;
-      width: 2rem;
-      top: calc(50% - 1rem);
-      left: calc(50% - 1rem);
-      transform: scale(0);
-      transition-duration: 0.5s;
-      transition-timing-function: ease-out;
-      background-color: #ffffff;
-      border-color: #ffffff;
-      border-radius: 100px;
-    }
-    .btn-white-outline,
-    .btn-white-outline:active,
-    .btn-white-outline.active {
-      background: none;
-      border-color: #ffffff;
-      color: #ffffff;
-    }
-    .btn-white-outline:hover,
-    .btn-white-outline:focus,
-    .btn-white-outline.focus {
-      color: #333333;
-      background-color: #ffffff;
-      border-color: #ffffff;
-    }
-    .btn-white-outline:hover:before,
-    .btn-white-outline:focus:before,
-    .btn-white-outline.focus:before {
-      transform: scale(10);
-    }
-    .text-primary {
-      color: #a38dfd;
-    }
-    .text-secondary {
-      color: #fe525b;
-    }
-    .text-success {
-      color: #b2ccd2;
-    }
-    .text-info {
-      color: #1ba1e2;
-    }
-    .text-warning {
-      color: #82786e;
-    }
-    .text-danger {
-      color: #879a9f;
-    }
-    .text-white {
-      color: #ffffff;
-    }
-    .text-black {
-      color: #000000;
-    }
-    a.text-primary:hover,
-    a.text-primary:focus {
-      color: #5229fb;
-    }
-    a.text-secondary:hover,
-    a.text-secondary:focus {
-      color: #e9010d;
-    }
-    a.text-success:hover,
-    a.text-success:focus {
-      color: #72a1ac;
-    }
-    a.text-info:hover,
-    a.text-info:focus {
-      color: #106087;
-    }
-    a.text-warning:hover,
-    a.text-warning:focus {
-      color: #4b453f;
-    }
-    a.text-danger:hover,
-    a.text-danger:focus {
-      color: #55666b;
-    }
-    a.text-white:hover,
-    a.text-white:focus {
-      color: #b3b3b3;
-    }
-    a.text-black:hover,
-    a.text-black:focus {
-      color: #4d4d4d;
-    }
-    .alert-success {
-      background-color: #b2ccd2;
-    }
-    .alert-info {
-      background-color: #1ba1e2;
-    }
-    .alert-warning {
-      background-color: #82786e;
-    }
-    .alert-danger {
-      background-color: #879a9f;
-    }
-    .mbr-section-btn a.btn:not(.btn-form) {
-      border-radius: 100px;
-      transition-property: background-color, color, border-color, box-shadow;
-      transition-duration: .3s,.3s,.3s,.8s;
-      transition-timing-function: ease-in-out;
-    }
-    .mbr-section-btn a.btn:not(.btn-form):hover {
-      box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
-    }
-    .mbr-gallery-filter li a {
-      border-radius: 100px;
-    }
-    .mbr-gallery-filter li.active .btn {
-      background-color: #a38dfd;
-      border-color: #a38dfd;
-      color: #ffffff;
-    }
-    .mbr-gallery-filter li.active .btn:focus {
-      box-shadow: none;
-    }
-    .nav-tabs .nav-link {
-      border-radius: 100px;
-    }
-    .btn-form {
-      border-radius: 0;
-    }
-    .btn-form:hover {
-      cursor: pointer;
-    }
-    a,
-    a:hover {
-      color: #a38dfd;
-    }
-    .mbr-plan-header.bg-primary .mbr-plan-subtitle,
-    .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-      color: #ffffff;
-    }
-    .mbr-plan-header.bg-success .mbr-plan-subtitle,
-    .mbr-plan-header.bg-success .mbr-plan-price-desc {
-      color: #ffffff;
-    }
-    .mbr-plan-header.bg-info .mbr-plan-subtitle,
-    .mbr-plan-header.bg-info .mbr-plan-price-desc {
-      color: #d0ecf9;
-    }
-    .mbr-plan-header.bg-warning .mbr-plan-subtitle,
-    .mbr-plan-header.bg-warning .mbr-plan-price-desc {
-      color: #beb8b2;
-    }
-    .mbr-plan-header.bg-danger .mbr-plan-subtitle,
-    .mbr-plan-header.bg-danger .mbr-plan-price-desc {
-      color: #ced6d8;
-    }
-    /* Scroll to top button*/
-    .scrollToTop_wraper {
-      opacity: 0;
-    }
-    /* Others*/
-    .note-check a[data-value=Rubik] {
-      font-style: normal;
-    }
-    .mbr-arrow a {
-      color: #ffffff;
-    }
-    .form-control-label {
-      position: relative;
-      cursor: pointer;
-      margin-bottom: .357em;
-      padding: 0;
-    }
-    .alert {
-      color: #ffffff;
-      border-radius: 0;
-      border: 0;
-      font-size: .875rem;
-      line-height: 1.5;
-      margin-bottom: 1.875rem;
-      padding: 1.25rem;
-      position: relative;
-    }
-    .alert.alert-form::after {
-      background-color: inherit;
-      bottom: -7px;
-      content: "";
-      display: block;
-      height: 14px;
-      left: 50%;
-      margin-left: -7px;
-      position: absolute;
-      transform: rotate(45deg);
-      width: 14px;
-    }
-    .form-control {
-      background-color: #f5f5f5;
-      box-shadow: none;
-      color: #565656;
-      font-family: 'Comfortaa', sans-serif;
-      font-size: 1.1rem;
-      line-height: 1.43;
-      min-height: 3.5em;
-      padding: 1.07em .5em;
-    }
-    .form-control,
-    .form-control:focus {
-      border: 1px solid #e8e8e8;
-    }
-    .form-active .form-control:invalid {
-      border-color: red;
-    }
-    .mbr-overlay {
-      background-color: #000;
-      bottom: 0;
-      left: 0;
-      opacity: .5;
-      position: absolute;
-      right: 0;
-      top: 0;
-      z-index: 0;
-    }
-    blockquote {
-      font-style: italic;
-      padding: 10px 0 10px 20px;
-      font-size: 1.09rem;
-      position: relative;
-      border-color: #a38dfd;
-      border-width: 3px;
-    }
-    ul,
-    ol,
-    pre,
-    blockquote {
-      margin-bottom: 2.3125rem;
-    }
-    pre {
-      background: #f4f4f4;
-      padding: 10px 24px;
-      white-space: pre-wrap;
-    }
-    .inactive {
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      pointer-events: none;
-      -webkit-user-drag: none;
-      user-drag: none;
-    }
-    .mbr-section__comments .row {
-      justify-content: center;
-    }
-    html,
-    body {
-      height: auto;
-      min-height: 100vh;
-    }
-
-    .cid-qAA5ddnKs1 {
-      padding-top: 90px;
-      padding-bottom: 90px;
-      background-image: url("../../../assets/images/background3.jpg");
-    }
-
-    .cid-qAAhmQox0c {
-      padding-top: 90px;
-      padding-bottom: 90px;
-      background-image: url("../../../assets/images/background5.jpg");
-    }
-
-    section {
-      background-color: #eeeeee; }
-
-    section,
-    .container,
-    .container-fluid {
-      position: relative;
-      word-wrap: break-word; }
-
-    a.mbr-iconfont:hover {
-      text-decoration: none; }
-
-    .article .lead p, .article .lead ul, .article .lead ol, .article .lead pre, .article .lead blockquote {
-      margin-bottom: 0; }
-
-    a {
-      font-style: normal;
-      font-weight: 400;
-      cursor: pointer; }
-      a, a:hover {
-        text-decoration: none; }
-
-    figure {
-      margin-bottom: 0; }
-
-    body {
-      color: #232323; }
-
-    h1, h2, h3, h4, h5, h6,
-    .h1, .h2, .h3, .h4, .h5, .h6,
-    .display-1, .display-2, .display-3, .display-4 {
-      line-height: 1;
-      word-break: break-word;
-      word-wrap: break-word; }
-
-    b, strong {
-      font-weight: bold; }
-
-    blockquote {
-      padding: 10px 0 10px 20px;
-      position: relative;
-      border-left: 2px solid;
-      border-color: #ff3366; }
-
-    input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
-      transition-delay: 9999s;
-      transition-property: background-color, color; }
-
-    textarea[type="hidden"] {
-      display: none; }
-
-    body {
-      position: relative; }
-
-    section {
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      background-size: cover; }
-      section .mbr-background-video,
-      section .mbr-background-video-preview {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        top: 0; }
-
-    .container {
-      position: relative;
-      margin-left: auto;
-      margin-right: auto;
-      padding-right: 15px;
-      padding-left: 15px; }
-
-    @media (min-width: 576px) {
-      .container {
-        padding-right: 15px;
-        padding-left: 15px; } }
-    @media (min-width: 768px) {
-      .container {
-        padding-right: 15px;
-        padding-left: 15px; } }
-    @media (min-width: 992px) {
-      .container {
-        padding-right: 15px;
-        padding-left: 15px; } }
-    @media (min-width: 1200px) {
-      .container {
-        padding-right: 15px;
-        padding-left: 15px; } }
-    @media (min-width: 576px) {
-      .container {
-        width: 540px;
-        max-width: 100%; } }
-    @media (min-width: 768px) {
-      .container {
-        width: 720px;
-        max-width: 100%; } }
-    @media (min-width: 992px) {
-      .container {
-        width: 960px;
-        max-width: 100%; } }
-    @media (min-width: 1200px) {
-      .container {
-        width: 1140px;
-        max-width: 100%; } }
-    .container-fluid {
-      position: relative;
-      margin-left: auto;
-      margin-right: auto;
-      padding-right: 15px;
-      padding-left: 15px; }
-
-    @media (min-width: 576px) {
-      .container-fluid {
-        padding-right: 15px;
-        padding-left: 15px; } }
-    @media (min-width: 768px) {
-      .container-fluid {
-        padding-right: 15px;
-        padding-left: 15px; } }
-    @media (min-width: 992px) {
-      .container-fluid {
-        padding-right: 15px;
-        padding-left: 15px; } }
-    @media (min-width: 1200px) {
-      .container-fluid {
-        padding-right: 15px;
-        padding-left: 15px; } }
-    .row {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      margin-right: -15px;
-      margin-left: -15px; }
-
-    @media (min-width: 576px) {
-      .row {
-        margin-right: -15px;
-        margin-left: -15px; } }
-    @media (min-width: 768px) {
-      .row {
-        margin-right: -15px;
-        margin-left: -15px; } }
-    @media (min-width: 992px) {
-      .row {
-        margin-right: -15px;
-        margin-left: -15px; } }
-    @media (min-width: 1200px) {
-      .row {
-        margin-right: -15px;
-        margin-left: -15px; } }
-    .hidden {
-      visibility: hidden; }
-
-    .mbr-z-index20 {
-      z-index: 20; }
-
-    /*! Base colors */
-    .mbr-white {
-      color: #ffffff; }
-
-    .mbr-black {
-      color: #000000; }
-
-    .mbr-bg-white {
-      background-color: #ffffff; }
-
-    .mbr-bg-black {
-      background-color: #000000; }
-
-    /*! Text-aligns */
-    .align-left {
-      text-align: left; }
-
-    .align-center {
-      text-align: center; }
-
-    .align-right {
-      text-align: right; }
-
-    @media (max-width: 767px) {
-      .align-left, .align-center, .align-right, .mbr-section-btn, .mbr-section-title {
-        text-align: center; } }
-    /*! Font-weight  */
-    .mbr-light {
-      font-weight: 300; }
-
-    .mbr-regular {
-      font-weight: 400; }
-
-    .mbr-semibold {
-      font-weight: 500; }
-
-    .mbr-bold {
-      font-weight: 700; }
-
-    /*! Media  */
-    .media-size-item {
-      -webkit-flex: 1 1 auto;
-      -moz-flex: 1 1 auto;
-      -ms-flex: 1 1 auto;
-      -o-flex: 1 1 auto;
-      flex: 1 1 auto; }
-
-    .media-content {
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; }
-
-    .media-container-row {
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-      flex-direction: row;
-      -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-      align-content: center;
-      -webkit-align-items: start;
-      -ms-flex-align: start;
-      align-items: start; }
-      .media-container-row .media-size-item {
-        width: 400px; }
-
-    .media-container-column {
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-      align-content: center;
-      -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-      align-items: stretch; }
-      .media-container-column > * {
-        width: 100%; }
-
-    @media (min-width: 992px) {
-      .media-container-row {
-        -webkit-flex-wrap: nowrap;
-        -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap; } }
-    figure {
-      overflow: hidden; }
-
-    figure[mbr-media-size] {
-      transition: width 0.1s; }
-
-    .mbr-figure img, .mbr-figure iframe {
-      display: block;
-      width: 100%; }
-
-    .card {
-      background-color: transparent;
-      border: none; }
-
-    .card-img {
-      text-align: center;
-      flex-shrink: 0; }
-
-    .media {
-      max-width: 100%;
-      margin: 0 auto; }
-
-    .mbr-figure {
-      -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      -webkit-align-self: center;
-      align-self: center; }
-
-    .media-container > div {
-      max-width: 100%; }
-
-    .mbr-figure img, .card-img img {
-      width: 100%; }
-
-    @media (max-width: 991px) {
-      .media-size-item {
-        width: auto; }
-
-      .media {
-        width: auto; }
-
-      .mbr-figure {
-        width: 100%; } }
-    /*! Buttons */
-    .mbr-section-btn {
-      margin-left: -.25rem;
-      margin-right: -.25rem;
-      font-size: 0; }
-
-    nav .mbr-section-btn {
-      margin-left: 0rem;
-      margin-right: 0rem; }
-
-    /*! Btn icon margin */
-    .btn .mbr-iconfont, .btn.btn-sm .mbr-iconfont {
-      cursor: pointer;
-      margin-right: 0.5rem; }
-
-    .btn.btn-md .mbr-iconfont, .btn.btn-md .mbr-iconfont {
-      margin-right: 0.8rem; }
-
-    .mbr-regular {
-      font-weight: 400; }
-
-    .mbr-semibold {
-      font-weight: 500; }
-
-    .mbr-bold {
-      font-weight: 700; }
-
-    [type="submit"] {
-      -webkit-appearance: none; }
-
-    /*! Full-screen */
-    .mbr-fullscreen .mbr-overlay {
-      min-height: 100vh; }
-
-    .mbr-fullscreen {
-      display: flex;
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flex;
-      display: -o-flex;
-      align-items: center;
-      -webkit-align-items: center;
-      min-height: 100vh;
-      padding-top: 3rem;
-      padding-bottom: 3rem; }
-
-    /*# sourceMappingURL=style.css.map */
-    .engine {
-        position: absolute;
-        text-indent: -2400px;
-        text-align: center;
-        padding: 0;
-        top: 0;
-        left: -2400px;
-    }      
-  </style>
-
-  <noscript>
-      <style amp-boilerplate>
-          body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
-      </style>
-  </noscript>
-
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
-
-  <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "mainEntityOfPage": "https://rororo1991.github.io/index.html",
-        "headline": "Mobitest amp test",
-        "description": "Mobitest amp test",
-        "datePublished": "2017-10-31T19:14:32Z",
-        "dateModified": "2017-11-10T15:17:51Z",
-        "author": {
-            "@type": "Person",
-            "name": "By SergKo France, Mobitest "
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Mobitest",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mobirise_4_Official_Logo.png",
-                "width": 60,
-                "height": 60
-            }
-        },
-        "image": {
-            "@type": "ImageObject",
-            "url": "https://mobirise.com/assets-int/images/blocks-1879x1225.jpg",
-            "width": 1000,
-            "height": 619
-        }
-      }
-  </script>
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
 </head>
-
 <body>
-    <section class="header1 cid-qAA5ddnKs1" id="header1-4" data-rv-view="6">
-        <div class="container">
-            <div class="mbr-white">
-                <h1 class="mbr-fonts-style align-center mbr-bold display-1">
-                    FULL WIDTH INTRO
+<section class="cid-qCbxlr4jPG mbr-fullscreen mbr-parallax-background" id="header2-0" data-rv-view="48">
+
+    
+
+    
+
+    <div class="container align-center">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                    FULL SCREEN INTRO
                 </h1>
-                <h3 class="mbr-fonts-style align-center mbr-light display-2">
-                    Beautiful mobile websites
-                </h3>
-                <p class="mbr-fonts-style mbr-text align-center display-5">
-                    Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it.
+                
+                <p class="mbr-text pb-3 mbr-fonts-style display-5">
+                    Click any text to edit or style it. Select text to insert a link. Click blue "Gear" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red "+" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add themes.
                 </p>
-                <div class="mbr-section-btn align-center">
-                    <a class="btn btn-md btn-primary display-4" href="/page1.html">
-                        <span class="mbr-iconfont mbri-file"></span>LEARN MORE</a>
-                    <a class="btn btn-md btn-white-outline display-4" href="/page1.html">
-                        <span class="mbr-iconfont mbri-idea"></span>LIVE DEMO</a>
+                <div class="mbr-section-btn">
+                    <a class="btn btn-md btn-secondary display-4" href="https://mobirise.com">LEARN MORE</a>
+                    <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.com">LIVE DEMO</a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+</section>
 
-    <section class="menu cid-qAn8x4li21" id="menu1-1">
-        <amp-img src="assets/images/background5.jpg"
-                 width="1920"
-                 height="800"
-                 layout="responsive"
-                 alt="Mobirise">
-         </amp-img>
-    </section>
+<section class="engine"><a href="https://mobirise.co/m">bootstrap table</a></section><section class="header4 cid-qCbxnpBCN0 mbr-parallax-background" id="header4-1" data-rv-view="51">
 
-    <section class="header2 cid-qAAhmQox0c" id="header2-5" data-rv-view="6">
-        <div class="container">
-            <div class="mbr-white">
-                <h1 class="mbr-fonts-style align-center mbr-white mbr-bold display-1">
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-1">
                     INTRO WITH IMAGE
                 </h1>
-                <h3 class="mbr-fonts-style align-center mbr-white mbr-light display-2">
-                    Beautiful mobile websites
-                </h3>
-                <div class="mbr-text align-center">
+                
+                <div class="mbr-text align-center mbr-white pb-3">
                     <p class="mbr-text mbr-fonts-style display-5">
                         Intro with background image, color overlay and a picture at the bottom. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.
                     </p>
@@ -1572,16 +73,255 @@
                     <a class="btn btn-md btn-primary display-4" href="https://mobirise.com">LEARN MORE</a>
                     <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.com">LIVE DEMO</a>
                 </div>
-
-                <amp-img src="assets/images/background3.jpg"
-                         width="1920"
-                         height="800"
-                         layout="responsive"
-                         alt="a sample image">
-                </amp-img>
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/01.jpg" alt="Mobirise" media-simple="true" style="width: 60%;">
             </div>
         </div>
-    </section>
-</body>
+    </div>
+</section>
 
+<section class="header8 cid-qCbxquUpjs mbr-fullscreen mbr-parallax-background" id="header8-5" data-rv-view="54">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(0, 0, 0);">
+    </div>
+
+    <div class="container align-center">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center py-2 mbr-bold mbr-fonts-style display-1">
+                        INTRO WITH VIDEO POPUP
+                </h1>
+                <p class="mbr-text align-center py-2 mbr-fonts-style display-5">
+                        Full-screen intro with background image and video popup.
+                </p>
+                <div class="mbr-media show-modal align-center py-2" data-modal=".modalWindow">
+                         <span class="mbri-play mbr-iconfont" media-simple="true"></span>
+                </div>
+                <div class="icon-description align-center font-italic pb-3 mbr-fonts-style display-7">
+                        Icon's descriptions
+                </div>
+                <div class="mbr-section-btn text-center">
+                     <a class="btn btn-md btn-secondary display-4" href="https://mobirise.com">MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="modalWindow" style="display: none;">
+            <div class="modalWindow-container">
+                <div class="modalWindow-video-container">
+                    <div class="modalWindow-video">
+                        <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" data-src="http://www.youtube.com/watch?v=uNCr7NdOJgw"></iframe>
+                    </div>
+                    <a class="close" role="button" data-dismiss="modal">
+                        <span aria-hidden="true" class="mbri-close mbr-iconfont closeModal"></span>
+                        <span class="sr-only">Close</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header13 cid-qCbxqYWNT8 mbr-fullscreen mbr-parallax-background" id="header13-6" data-rv-view="57">
+
+    
+
+    
+
+    <div class="container">
+        <div class="mbr-media show-modal align-center pb-4 mb-4 pt-5" data-modal=".modalWindow">
+            <span class="mbri-play mbr-icofont" media-simple="true"></span>
+        </div>
+
+        <h1 class="mbr-section-title align-center pb-3 mbr-white mbr-bold mbr-fonts-style display-1">
+            INTRO WITH POPUP VIDEO
+        </h1>
+
+        <h3 class="mbr-section-subtitle mbr-fonts-style display-5">
+            Full-screen intro with background image, color, overlay, icons, popup video and subscribe form
+        </h3>
+
+        <div class="container mt-5 pt-5 pb-5">
+            <div class="media-container-column" data-form-type="formoid">
+                <div data-form-alert="" hidden="">
+                    Thanks for filling out the form!
+                </div>
+
+                <form class="form-inline" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form">
+                    <input type="hidden" value="tQRhym07/cfNcxzaiesjw05cpBzyDyXBdxo2t6IteqzwAZ64mWUatEjKC53bSdnMpkyWJvuTGrb9ZReZfLFp88SZU39/bfJJYfMCWK+znPRLPWOnk3QsIDJY+0q99DGZ" data-form-email="true">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-sm input-inverse" name="name" required="" data-form-field="Name" placeholder="Name" id="name-header13-6">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control input-sm input-inverse" name="email" required="" data-form-field="Email" placeholder="Email" id="email-header13-6">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control input-sm input-inverse" name="phone" data-form-field="Phone" placeholder="Phone" id="phone-header13-6">
+                    </div>
+                    <div class="buttons-wrap">
+                        <button href="" class="btn btn-primary display-4" type="submit" role="button">SUBSCRIBE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="modalWindow" style="display: none;">
+            <div class="modalWindow-container">
+                <div class="modalWindow-video-container">
+                    <div class="modalWindow-video">
+                        <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" data-src="http://www.youtube.com/watch?v=uNCr7NdOJgw"></iframe>
+                    </div>
+                    <a class="close" role="button" data-dismiss="modal">
+                        <span aria-hidden="true" class="mbri-close mbr-iconfont closeModal"></span>
+                        <span class="sr-only">Close</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+</section>
+
+<section class="cid-qCbxraotP6 mbr-fullscreen mbr-parallax-background" id="header15-7" data-rv-view="60">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(7, 59, 76);"></div>
+
+    <div class="container align-right">
+<div class="row">
+    <div class="mbr-white col-lg-8 col-md-7 content-container">
+        <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+            INTRO WITH FORM
+        </h1>
+        <p class="mbr-text pb-3 mbr-fonts-style display-5">
+            Click any text to edit or style it. Select text to insert a link. Click blue "Gear" icon in the top right corner to hide/show  text, title and change the block or form background. Click red "+" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add themes.
+        </p>
+    </div>
+    <div class="col-lg-4 col-md-5">
+    <div class="form-container">
+        <div class="media-container-column" data-form-type="formoid">
+            <div data-form-alert="" hidden="" class="align-center">Thanks for filling out the form!</div>
+            <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" data-form-email="true" value="CE9xMKx7L9sRabT86Q06FEzDZelafET2Al36Lm2GmQRUCHMLPm/RxzwUXXtphQdCPYrSm4s3gYLXs/041JCqE7l+yu20IJ5eEp24XzLPXlBXSCY5frYCY3Z93UXgxdFk">
+                <div data-for="name">
+                    <div class="form-group">
+                        <input type="text" class="form-control px-3" name="name" data-form-field="Name" placeholder="Name" required="" id="name-header15-7">
+                    </div>
+                </div>
+                <div data-for="email">
+                    <div class="form-group">
+                        <input type="email" class="form-control px-3" name="email" data-form-field="Email" placeholder="Email" required="" id="email-header15-7">
+                    </div>
+                </div>
+                <div data-for="phone">
+                    <div class="form-group">
+                        <input type="tel" class="form-control px-3" name="phone" data-form-field="Phone" placeholder="Phone" id="phone-header15-7">
+                    </div>
+                </div>
+                <div class="form-group" data-for="message">
+                    <textarea type="text" class="form-control px-3" name="message" rows="7" placeholder="Message" data-form-field="Message" id="message-header15-7"></textarea>
+                </div>
+                <span class="input-group-btn">
+                    <button href="" type="submit" class="btn btn-secondary btn-form display-4">SEND FORM</button>
+                </span>
+            </form>
+        </div>
+    </div>
+    </div>
+</div>
+    </div>
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+</section>
+
+<section class="header6 cid-qCbxoy8lFM mbr-fullscreen" data-bg-video="http://www.youtube.com/watch?v=uNCr7NdOJgw" id="header6-4" data-rv-view="63">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(0, 0, 0);">
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
+                    INTRO WITH BACKGROUND VIDEO
+                </h1>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
+                    Intro with background video and color overlay. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.
+                </p>
+                <div class="mbr-section-btn align-center">
+                        <a class="btn btn-md btn-primary display-4" href="https://mobirise.com">LEARN MORE</a>
+                        <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.com">LIVE DEMO</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+</section>
+
+<section class="header4 cid-qCbxnJgtK1 mbr-parallax-background" id="header4-2" data-rv-view="67">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-1">
+                    INTRO WITH IMAGE
+                </h1>
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-5">
+                        Intro with background image, color overlay and a picture at the bottom. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.
+                    </p>
+                </div>
+                <div class="mbr-section-btn align-center">
+                    <a class="btn btn-md btn-primary display-4" href="https://mobirise.com">LEARN MORE</a>
+                    <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.com">LIVE DEMO</a>
+                </div>
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/01.jpg" alt="Mobirise" media-simple="true" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smooth-scroll/smooth-scroll.js"></script>
+  <script src="assets/vimeo_player/vimeo_player.js"></script>
+  <script src="assets/jquery-mb-ytplayer/jquery.mb.ytplayer.min.js"></script>
+  <script src="assets/jquery-mb-vimeo_player/jquery.mb.vimeo_player.js"></script>
+  <script src="assets/jarallax/jarallax.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
+  
+  
+</body>
 </html>
